@@ -1,0 +1,160 @@
+body {
+  overflow-x: hidden;
+}
+
+.small-text {
+  font-size: 11px;
+  margin: 0;
+  line-height: 15px !important;
+  padding: 0px;
+}
+
+.btn-primary {
+  background-color: #26468f;
+  border-color: #26468f;
+}
+.btn-primary:hover {
+  background-color: #26468f;
+  border-color: #26468f;
+}
+
+.btn-bold {
+  font-weight: bolder;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: none !important;
+}
+
+nav .navbar-top {
+  background-color: #26468f;
+  height: 30px;
+}
+nav .navbar-main {
+  background-color: #ebebeb;
+}
+nav .navbar-main .container {
+  padding-top: 5%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navbar-main .container button {
+  margin-top: -6%;
+}
+nav .navbar-main .container .content {
+  display: flex;
+  align-items: flex-end;
+}
+nav .navbar-main .container .content img {
+  margin-right: 15px;
+}
+nav .navbar-main .container .content p {
+  color: #26468f;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+nav .navbar-main .container .content b {
+  font-weight: bolder;
+}
+nav .navbar-main .container .content .line-1 {
+  font-size: 20px;
+}
+nav .navbar-main .container .content .line-2 {
+  line-height: 30px;
+  font-size: 35px;
+}
+
+#carouselMain {
+  margin-top: 120px;
+}
+
+#benefit {
+  margin-top: 50px;
+}
+#benefit h2 {
+  font-weight: bold;
+  color: #3e3e3e;
+  margin-bottom: 50px;
+}
+#benefit h2 b {
+  color: #26468f;
+  font-weight: bold;
+}
+#benefit .row .d-flex {
+  row-gap: 25px;
+  gap: 25px;
+}
+
+#about {
+  margin-top: 50px;
+  background-color: #f4f7fe;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#about h2 {
+  font-weight: bold;
+  color: #3e3e3e;
+  margin-bottom: 30px;
+}
+#about h2 b {
+  color: #26468f;
+  font-weight: bold;
+}
+
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fffefc;
+}
+#contact input {
+  background-color: #fff;
+  border-radius: 0px;
+  border-color: #bdbdbb;
+}
+#contact .terms {
+  color: #26468f;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+}
+#contact h2 {
+  font-weight: bold;
+  color: #3e3e3e;
+}
+#contact h2 b {
+  color: #26468f;
+  font-weight: bold;
+}
+
+#step {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f8f6;
+}
+#step h2 {
+  color: #3d3d3d;
+  margin-bottom: 40px;
+}
+#step h2 b {
+  color: #26468f;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #26468f;
+}
+footer p {
+  color: #fff;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=style.css.map */

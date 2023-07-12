@@ -1,0 +1,196 @@
+$primary: #26468f;
+$light: #ebebeb;
+$black: #3e3e3e;
+
+body {
+  overflow-x: hidden;
+}
+
+.small-text {
+  font-size: 11px;
+  margin: 0;
+  line-height: 15px !important;
+  padding: 0px;
+}
+
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
+
+.btn-bold {
+  font-weight: bolder;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+
+  max-width: none !important;
+}
+
+// Navbar
+nav {
+  .navbar-top {
+    background-color: $primary;
+    height: 30px;
+  }
+
+  .navbar-main {
+    background-color: $light;
+
+    .container {
+      padding-top: 5%;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      button {
+        margin-top: -6%;
+      }
+
+      .content {
+        display: flex;
+        align-items: flex-end;
+
+        img {
+          margin-right: 15px;
+        }
+
+        p {
+          color: $primary;
+          font-weight: 500;
+          text-transform: uppercase;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        b {
+          font-weight: bolder;
+        }
+
+        .line-1 {
+          font-size: 20px;
+        }
+
+        .line-2 {
+          line-height: 30px;
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+// carousel
+#carouselMain {
+  margin-top: 120px;
+}
+
+#benefit {
+  margin-top: 50px;
+
+  h2 {
+    font-weight: bold;
+    color: $black;
+    margin-bottom: 50px;
+
+    b {
+      color: $primary;
+      font-weight: bold;
+    }
+  }
+
+  .row {
+    .d-flex {
+      row-gap: 25px;
+      gap: 25px;
+    }
+  }
+}
+
+#about {
+  margin-top: 50px;
+  background-color: #f4f7fe;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-weight: bold;
+    color: $black;
+    margin-bottom: 30px;
+
+    b {
+      color: $primary;
+      font-weight: bold;
+    }
+  }
+}
+
+// contact
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fffefc;
+
+  input {
+    background-color: #fff;
+    border-radius: 0px;
+    border-color: #bdbdbb;
+  }
+
+  .terms {
+    color: $primary;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: $black;
+
+    b {
+      color: $primary;
+      font-weight: bold;
+    }
+  }
+}
+
+// step
+#step {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f8f6;
+
+  h2 {
+    color: #3d3d3d;
+    margin-bottom: 40px;
+
+    b {
+      color: $primary;
+      font-weight: 500;
+    }
+  }
+}
+
+// footer
+footer {
+  background-color: $primary;
+  p {
+    color: #fff;
+    margin-bottom: 0px;
+  }
+}
